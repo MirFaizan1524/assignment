@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Navbar></Navbar>  
-      <LandingPage></LandingPage> 
-      <Banner></Banner>
+       <LandingPage></LandingPage> 
+       <Banner></Banner>
       <Courses></Courses>
      <Philosophy></Philosophy>
     <Events></Events>

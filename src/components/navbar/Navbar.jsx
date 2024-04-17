@@ -2,7 +2,7 @@ import React from 'react'
 import style from './navbar.css';
 function Navbar() {
     return (
-        <div className="container-fluid Navbar shadow p-3 mb-5 bg-body rounded" >
+        <div className="container-fluid Navbar shadow p-3  bg-body rounded" >
 
             <ul className='navList'>
 
