@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footerWrapper{
+    width: 100%;
+    height: 440px;
+    margin: 0;
+    padding: 0;
+}
+.footerWrapper .footer-top{
+    width: 100%;
+    background-image: url("../../assets/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+ 
+}
+.footerWrapper .footer-top  .EnglishQuote{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+}
+.footerWrapper .footer-top  .arabicQuote{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+}
+.footerWrapper .footer-bottom{
+    margin: 0;
+    padding:0;
+    background-image: url("../../assets/fMasjid.png");
+    width: 100%;
+    height: 100vh!important;
+    background-repeat: no-repeat;
+    margin-top: -90px;
+    
+}
+.footer-bottom .footerLinks{
+ 
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.footerLinks .ulist{
+    list-style: none;
+    margin: 80px;
+    padding: 0;
+
+}
+.footerLinks .ulist .link-heading{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    text-align: justify;
+
+}
+.footerLinks .ulist>li>a{
+ 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.footer-bottom .footer-icons{
+    /* margin-bottom: 140px !important; */
+    text-align: start !important;
+    margin-top: -110px !important;
+    
+    
+} 
+.footer-bottom .footer-icons i{
+    margin: 10px;
+    width: 32px;
+    height: 32px;
+    background-color: #DDE3D9;
+    padding: 10px;
+    border-radius: 50px;
+} 

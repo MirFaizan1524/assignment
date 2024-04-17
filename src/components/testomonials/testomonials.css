@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.testomonialWrapper{
+
+    background-color:  #F3F2ED;
+    width: 100% !important;
+    height: auto !important;
+}
+.testomonialWrapper .testHeading{
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+     padding: 80px !important; 
+color:#194D37;
+}
+.testomonialWrapper .testCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.testCards .testItems{
+    width: 621.33px;
+    height:294px;
+    margin-left: 10px;
+     padding-bottom: 20px;
+    
+}
+.testItems .text{
+  
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+}
+.testItems .stars img{
+    margin-left: 7px !important;
+}
+.testItems .testName{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: end;
+}
+.testItems .testDesig{
+    text-align: end;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+

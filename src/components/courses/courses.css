@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.courseWrapper .courseText h2{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 48px ;
+      
+}
+.courseWrapper .courseText p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px ;
+  
+}
+
+.courseCardWrapper{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+     
+}
+.courseCardWrapper .courseCard{
+   margin: 10px;
+   text-align: center;
+   width: 412.67px !important;
+   height: 484px;
+
+}
+.courseCardWrapper .courseCard h4{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px ;
+  
+}
+.courseCardWrapper .courseCard p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px ;
+  
+}
+ .courseLogosWrapper{
+    display: flex;
+    flex-direction: row;
+ } 
+
+.courseLogosWrapper .courseLogo{
+    width: 189.43px;
+    height:auto;
+}
+.courseLogosWrapper .courseLogo .logoContainer{
+    border: 1px solid red;
+    width: 114px;
+    height: 115px;
+    border-radius: 100px;
+    background-color: white;
+}
+.courseLogosWrapper .courseLogo .logoContainer img{
+    
+    max-width: fit-content;
+    padding-top:25px;
+}
+
+.courseLogosWrapper .courseLogo .courseLogoText h6{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-size: 18px ;   
+      padding: 0;
+      margin: 0;
+}
+.courseLogosWrapper .courseLogo .courseLogoText p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-size: 10px ;   
+
+}

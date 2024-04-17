@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.Navbar{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.Navbar .navList{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.Navbar .navList li{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.Navbar .navList li a{
+  margin: 0;
+  /* padding:10px;    */
+  padding:0;
+  text-decoration: none;  
+  color: black;
+}
+.Navbar .navList li .searchBar{
+    width:487px;
+    height: 41px;
+    border: 1px solid black !important;
+}
+.signinBtn{
+    border: 1px solid black;
+     width: 154px;
+     height: 48px;
+     background-image: linear-gradient(to right,white 50%, orange 100%);
+     background-size: 200% 100%;
+     transition: background-position 0.9s ease;
+
+}
+.signinBtn:hover{
+ /* background-color: orange; */
+   
+    background-position: -100% 0;
+}
+.Navbar .navList .navBrand{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+}
+.Navbar .navList .navlelems{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
