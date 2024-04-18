@@ -9,11 +9,11 @@ function Banner() {
      
       <div className="container-fluid bannerWrapper">
              {/* first row */}
-         <div className="container bannerBox1">            
-              <div className="container bannerImage">
+         <div className="container-fluid bannerBox1">            
+              <div className="container-fluid bannerImage">
                        <img src={b1} alt="" className='img-fluid'/>         
                 </div>
-                <div className="container bannerText">
+                <div className="container-fluid bannerText">
                         <img src={t} alt="" className='img-fluid my-2'/>
                         <p className='my-2'>The is not just a institute for prayers rather it is a community center for all. The Center is committed to preserving an Islamic identity, building and supporting a viable Muslim community, promoting a compre-hensive Islamic way of life based on the Holy Quran and the Sunnah of Prophet Muhammad S.A.W</p>                  
                 </div>       
@@ -29,7 +29,8 @@ function Banner() {
                          <p className='largeBanner'>Garden <label htmlFor="" className='bannerColor'>of </label></p> 
                          <p className='largeBanner'><label className='bannerColor'>Islamic Knowledge </label></p> 
                         <label htmlFor="" className='bannerColor'> <p className='smallBanner'>ETHICAL & MORAL BELIEFS THAT GUIDES</p></label>
-
+                        <br />
+                        <button className='bannerBtn'>learn more</button>
                        </div>
                        
                         <div className="container bannerImage2 "></div>
@@ -40,7 +41,7 @@ function Banner() {
                            </div>   
 
 
-                     <button className='btn btn-lg btn-success'>learn more</button>
+                     
  
 
       </div>
