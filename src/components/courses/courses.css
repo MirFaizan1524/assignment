@@ -23,15 +23,13 @@
 .courseCardWrapper{
     display: flex !important;
     flex-direction: row;
-    justify-content: center;
-     
+    justify-content: center;    
 }
 .courseCardWrapper .courseCard{
    margin: 10px;
    text-align: center;
    width: 412.67px !important;
    height: 484px;
-
 }
 .courseCardWrapper .courseCard h4{
     font-family: "Montserrat", sans-serif;
@@ -39,7 +37,6 @@
     font-weight: 500;
     font-style: normal;
     font-size: 24px ;
-  
 }
 .courseCardWrapper .courseCard p{
     font-family: "Montserrat", sans-serif;
@@ -86,5 +83,34 @@
     font-weight: auto;
     font-style: normal;
     font-size: 10px ;   
+
+}
+
+/* Media Queries: */
+
+@media only screen and (max-width:992px){
+.courseWrapper{
+   margin: 0;
+   padding: 0;
+  
+
+}
+
+    .courseCardWrapper{
+        display: flex !important;
+        flex-direction: column !important;
+        margin: 0;
+        padding: 0;
+    }
+    .courseCardWrapper .courseCard{
+        
+        width: 100% !important;
+        height: 484px;     
+     }
+     .courseLogosWrapper{
+        display: flex;
+        flex-direction: column;
+     } 
+
 
 }

@@ -12,15 +12,14 @@ import Navbar from '../src/components/navbar/Navbar.jsx'
 function App() {
   return (
     <>
-      {/* <Navbar></Navbar> */} 
+      <Navbar></Navbar> 
        <LandingPage></LandingPage>  
        <Banner></Banner>
-      {/* <Courses></Courses>
-     <Philosophy></Philosophy>
+      <Courses></Courses>
+     {/* <Philosophy></Philosophy>
     <Events></Events>
     <Testomonials></Testomonials>
-    <Footer></Footer>
-     */}
+    <Footer></Footer>  */}
     </>    
   );
 }
