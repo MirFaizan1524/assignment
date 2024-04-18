@@ -21,7 +21,7 @@ function LandingPage() {
                 <p className='maintext'>gaining </p>
                <p className='maintext'> knowledge is an</p> <p className='maintext'><label> active part of faith</label></p>
                 <p className='colorText'> Our programs are all personally developed in a way students can getaccess to our classical Islamic texts</p>
-                  <button className='btn btn-lg btn-outline-secondary mb-5'>Courses</button>
+                  <button className=' landingBtn mb-5'>Courses</button>
           
               </div>
 
