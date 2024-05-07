@@ -121,3 +121,68 @@
     font-style: normal;
     font-size: 34px !important;  
 }
+
+/* Media Queries */
+@media only screen and (max-width:568px){
+.eventDescription .eventHeadings h2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px ;
+    color: #194D37;
+}
+    
+
+}
+
+@media only screen and (max-width:992px){
+
+    .eventsWrapper .eventsBox{
+        display: flex;
+        flex-direction: column;
+        /* margin: 0; */
+    
+
+    }
+
+    .eventImage{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .eventImage img{
+        width: 100%;
+
+    }
+
+
+    .eventDescription .eventHeadings{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .eventDescription .eventCard{
+        width: 100% !important;
+         height: auto !important; 
+         border: 1px solid red !important;  
+    }
+    .eventCharts .eventInstructions {
+        display: flex;
+        flex-direction:column;
+        margin: 0 !important;
+        padding: 0 !important;
+    
+    }
+
+    .eventInstructions .eventItems{
+        width: 305px;
+        height: auto !important;
+        text-align: center !important;
+        margin: 5px 0px 0px 0px !important;
+        padding: 0 !important;
+    }
+
+
+
+}

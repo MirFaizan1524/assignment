@@ -9,7 +9,7 @@ function Events() {
                 <div className="container eventsBox py-3 px-3">
 
                     <div className="container eventImage">
-                        <img src={eventimage} alt="eventImage" />
+                        <img src={eventimage} alt="eventImage" className='img-fluid' />
 
                     </div>
 

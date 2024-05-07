@@ -16,13 +16,12 @@ function testomonials() {
 
                     <div class="card testItems mb-3">
                         <div class="row g-0">
-                            <div class="col-md-4">
+                            <div className="col-md-4">
                                 <div className="card-body " style={{height:"244px"}}>
                                 <img src={c1} class="img-fluid rounded-start" alt="..." />
-
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div className="col-md-8">
                                 <div class="card-body" style={{height:"244px"}}>
                                     <p className='px-3 text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco</p>
                                      

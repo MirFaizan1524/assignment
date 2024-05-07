@@ -1,16 +1,14 @@
-
- 
-
-.philosophyWrapper{
+.philosophyWrapper {
     background-color: #F3F2ED;
     width: 100%;
     height: auto;
 }
-.PhilosophyText{
+
+.PhilosophyText {
     margin-top: 80px;
 }
 
-.PhilosophyText h2{
+.PhilosophyText h2 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -18,33 +16,37 @@
     font-size: 48px;
     margin-top: 80px !important;
 }
-.PhilosophyText p{
+
+.PhilosophyText p {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 16px ;
-    color:#D39C41;
+    font-size: 16px;
+    color: #D39C41;
 }
 
-.philosophyHeading{
-color: 
-#D39C41;
+.philosophyHeading {
+    color:
+        #D39C41;
 }
-.philosophyWrapper .philosophyCardWrapper{
-display: flex;
-flex-direction: row;
-justify-content: center;
+
+.philosophyWrapper .philosophyCardWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
 }
-.philosophyWrapper .philosophyCard{
+
+.philosophyWrapper .philosophyCard {
     width: 413px !important;
     height: 259px !important;
     margin-top: 80px !important;
     margin-left: 5px !important;
-    margin-right:5px !important;
+    margin-right: 5px !important;
 
 }
-.philosophyCard .philosophyLogo{
+
+.philosophyCard .philosophyLogo {
     width: 113px !important;
     height: 110px !important;
     border: 1px solid red !important;
@@ -54,23 +56,65 @@ justify-content: center;
     margin-left: 0;
     background-color: white;
 }
-.philosophyCard .philosophyLogo img{
-  padding-top: 25px;
-  padding-left: 4px;
+
+.philosophyCard .philosophyLogo img {
+    padding-top: 25px;
+    padding-left: 4px;
 }
- .philosophyCard h4{
+
+.philosophyCard h4 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-size: 20px ;
+    font-size: 20px;
 }
 
- .phylosophyCard p{
+.phylosophyCard p {
     font-family: "Montserrat", sans-serif !important;
     font-weight: 500 !important;
-    font-size: 18px  !important;
+    font-size: 18px !important;
     font-style: normal !important;
     font-optical-sizing: auto !important;
     padding: 20px !important;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:564px) {
+    .philosophyWrapper .PhilosophyText h2{
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 30px;
+        margin-top: 60px !important;
+    
+    
+    }
+
+
+}
+
+@media only screen and (max-width:992px) {
+
+    
+    .philosophyWrapper .philosophyCardWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        margin: 0;
+        padding: 0;
+
+    }
+    .philosophyWrapper .philosophyCard {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 5px 0px 0px 0px;
+        
+    
+    }
+
+
 }
